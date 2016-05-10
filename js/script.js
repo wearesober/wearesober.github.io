@@ -1,4 +1,5 @@
 $(document).ready(function(){
 
-    $('[data-toggle="popover"]').popover('show'); 
+ $('[data-toggle="popover"]').popover(); 
+
 });
