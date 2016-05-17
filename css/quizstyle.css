@@ -1,0 +1,74 @@
+h1 {
+	font-family: graduate;
+	font-size: 4em;
+	text-align: center;
+	margin: auto;
+	}
+
+.nav {
+	float:right;
+}
+.img-responsive { 
+     background-image: url('images/chalkboard-background.jpg');
+     background-size: 100%;
+     position: absolute;
+    }
+
+ .wrapper .overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding: 8%;
+  color:white;
+}
+
+form {
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #f6ff61;
+}
+
+label {
+    display: block;
+    text-align: left
+    font-family: glegoo;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
+
+.language option {
+	color: blue;
+	font-family: glegoo;
+	font-size: 1.5rem;
+}
+
+input {
+	display: flex;
+	margin-top: 2.5%;
+	font-family: glegoo;
+	font-size: 1.5rem;
+	color: blue;
+	flex-wrap: wrap;	
+	justify-content: center;
+	width: 50%
+}
+
+
+#button {
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 5%;
+	font-family: glegoo;
+	margin-bottom: 5%;
+	color: blue;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+       width: 100%;
+    }
+}
